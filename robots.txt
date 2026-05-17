@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://golden-retriever-zone.github.io/sitemap.xml
