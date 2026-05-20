@@ -1,0 +1,28 @@
+{
+  "site_name": "Golden Retriever Zone",
+  "site_url": "https://golden-retriever-zone.github.io",
+  "niche": "Golden Retrievers",
+  "brand_voice": "Enthusiastic, wholesome, family-oriented — for the families who love their goldens",
+  "editorial_voice": "Warm and thorough — we treat every golden's family like they deserve complete, thoughtful answers",
+  "primary_author_label": "Golden Zone Guide Editors",
+  "reviewer_label": "Golden Retriever Zone Editorial Board",
+  "update_owner_label": "Golden Zone Guide Editors",
+  "about_title": "Behind the Guide",
+  "editorial_policy_title": "Our Publishing Standards",
+  "disclosure_title": "Reader Disclosure",
+  "ai_assistance_disclosure": "Golden Retriever Zone uses AI tools to assist with research summaries and first drafts. Final content is reviewed and edited by our guide editors for accuracy and tone.",
+  "article_eeat_block_variants": [
+    "<div style=\"border-left:4px solid #0e7490;background:#ecfeff;padding:14px 18px;margin:24px 0;border-radius:0 6px 6px 0;\"><p style=\"margin:0;font-size:0.93rem;color:#4b5563;\"><strong style=\"color:#0e7490;\">Golden Zone Guide Editors</strong> — Reviewed before publishing. Our goal is to give golden families complete, reliable information.</p></div>",
+    "<div style=\"border-left:4px solid #0e7490;background:#ecfeff;padding:14px 18px;margin:24px 0;border-radius:0 6px 6px 0;\"><p style=\"margin:0;font-size:0.93rem;color:#4b5563;\"><strong style=\"color:#0e7490;\">For Golden Families:</strong> This guide was written with family-owned goldens in mind — the shedding, training, and whole-family experience of this breed.</p></div>",
+    "<div style=\"border:1px solid #a5f3fc;background:#f8fffe;padding:14px 18px;margin:24px 0;border-radius:6px;\"><p style=\"margin:0;font-size:0.93rem;color:#4b5563;\"><strong style=\"color:#0e7490;\">Editorial Care:</strong> Golden Retriever Zone covers a breed that many families choose as their first dog. We take that responsibility seriously and write accordingly.</p></div>",
+    "<div style=\"background:#0e7490;color:#fff;padding:14px 18px;margin:24px 0;border-radius:6px;\"><p style=\"margin:0;font-size:0.93rem;\"><strong>Guide Note:</strong> If something in this article has changed or you have a correction, <a href=\"/contact.html\" style=\"color:#cef;\">we welcome your message</a>. Golden Retriever Zone updates guides regularly.</p></div>",
+    "<div style=\"border-top:2px solid #0e7490;padding-top:12px;margin:24px 0;\"><p style=\"font-size:0.88rem;color:#6b7280;margin:0;\">Published by <strong style=\"color:#0e7490;\">Golden Zone Guide Editors</strong>. We cover shedding management, family training, health screening, and the full arc of life with a golden retriever.</p></div>"
+  ],
+  "disclosure_variants": [
+    "Golden Retriever Zone contains affiliate links to Amazon products. We may earn a commission when you purchase through these links at no extra cost to you.",
+    "Some product links on this site earn us a small referral fee. Your price is always the same.",
+    "This site participates in affiliate programs. Commissions help us create more guides for golden families.",
+    "Golden Retriever Zone uses Amazon affiliate links. Any income earned does not influence our editorial content.",
+    "When you click a product recommendation and purchase, we may receive an affiliate commission. We recommend products based on their value to golden retriever owners."
+  ]
+}
