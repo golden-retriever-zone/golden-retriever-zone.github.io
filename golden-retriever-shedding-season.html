@@ -16,8 +16,8 @@
   .article-breadcrumb span[aria-current="page"] { color: #374151; font-weight: 600; }
 
 </style>
-<title>Golden Retriever Shedding Season: Complete Owner Guide</title>
-<meta name="description" content="When does golden retriever shedding peak? Complete guide: spring vs fall blow-out, best grooming tools, diet tips, and how to reduce shedding by 30%.">
+<title>Why Your Golden Retriever Sheds Year-Round (And How to Stop It)</title>
+<meta name="description" content="Discover the surprising reason Golden Retrievers shed constantly and the proven techniques that actually work. Stop the fur—keep the love." />
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://golden-retriever-zone.github.io/golden-retriever-shedding-season.html">
 <style>
@@ -141,18 +141,22 @@
 <section class="hero">
   <div class="hero-inner">
     <p class="eyebrow">Golden Retriever Grooming — Shedding Season Guide</p>
-    <h1>Golden Retriever Shedding Season: Complete Owner Guide</h1>
+    <h1>Why Your Golden Retriever Sheds Year-Round (And How to Stop It)</h1>
     <p>Two blow-outs per year, up to 30% reducible with the right tools and diet. Here is exactly what to expect and how to handle it.</p>
   </div>
 </section>
 
 <div class="layout">
-  <main class="article">
+  
     
     
     
     
-    <nav class="article-breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>›</span><a href="/blog.html">Blog</a><span>›</span><span aria-current="page">Golden Retriever Shedding Season: Complete Owner Guide</span></nav>
+  <article class="article">
+    
+    
+    
+    <nav class="article-breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>›</span><a href="/blog.html">Blog</a><span>›</span><span aria-current="page">Why Your Golden Retriever Sheds Year-Round (And How to Stop It)</span></nav>
     <p class="meta">Published: May 20, 2026 · Golden Retriever Zone Editorial Team · 11 min read</p>
 
     <h2>When Do Golden Retrievers Shed the Most?</h2>
@@ -386,8 +390,9 @@
       <p>Expect $65–$120 per session depending on location, coat condition, and services included. Quarterly grooming is the recommended minimum, ideally scheduled before the two peak shedding months.</p>
     </details>
 
-  </main>
+  
 
+  </article>
   <aside class="sidebar">
     <section class="sidebar-panel sidebar-newsletter">
       <h3>Golden Retriever Care Notes</h3>
@@ -395,7 +400,6 @@
       <input type="email" placeholder="Your email">
       <button type="button">Send me the tips</button>
     </section>
-<section class="sidebar-panel"><h3>Quick Links</h3><ul><li><a href="/">Home page</a></li><li><a href="/blog.html">All posts</a></li><li><a href="/care.html">Golden Retriever care checklist</a></li><li><a href="/about.html">About this site</a></li><li><a href="/contact.html">Contact</a></li><li><a href="/sitemap.html">Sitemap</a></li></ul><h3 style="margin-top:16px;">Latest articles</h3><ul><li><a href="/golden-retriever-spay-neuter-timing-risk-table.html">Golden Retriever Spay Neuter Timing Risk Table</a></li><li><a href="/golden-retriever-cancer-by-age.html">Golden Retriever Cancer By Age: What Every Owner Should Know</a></li><li><a href="/golden-retriever-hemangiosarcoma-prevalence-survival-genetics.html">Golden Retriever Hemangiosarcoma: prevalence, survival odds, and what the genetics data suggests</a></li><li><a href="/should-golden-retrievers-be-shaved.html">Should Golden Retrievers Be Shaved? Risks and Rules</a></li></ul></section>
     <section class="sidebar-panel">
       <h3>Quick Tip</h3>
       <p>During peak spring shedding (April), brush your Golden Retriever daily for 15–30 minutes. One professional groom before the season starts cuts home clean-up time in half.</p>
@@ -403,17 +407,69 @@
   </aside>
 </div>
 
-<footer class="footer">
-  <div class="footer-inner">
-    <p>Golden Retriever Zone</p>
-    <p>
-      <a href="/privacy.html" style="color:rgba(255,255,255,0.9);">Privacy</a>
-      <span style="opacity:0.55;"> | </span>
-      <a href="/contact.html" style="color:rgba(255,255,255,0.9);">Contact</a>
-      <span style="opacity:0.55;"> | </span>
-      <a href="/sitemap.html" style="color:rgba(255,255,255,0.9);">Sitemap</a>
-    </p>
-  </div>
-</footer>
+
+
+<script>
+(function() {
+  var _ga4 = "";
+  var _site = "golden-retriever-zone.github.io";
+  var _article = "golden-retriever-shedding-season";
+  var _startTime = Date.now();
+  var _scrollMarks = {25: false, 50: false, 75: false, 100: false};
+
+  function _send(name, params) {
+    var data = Object.assign({page: _article, site: _site}, params);
+    if (_ga4 && typeof gtag === "function") {
+      gtag("event", name, data);
+    }
+    try {
+      var log = JSON.parse(localStorage.getItem("_ptrack") || "[]");
+      log.push({t: new Date().toISOString(), e: name, d: data});
+      if (log.length > 200) log = log.slice(-200);
+      localStorage.setItem("_ptrack", JSON.stringify(log));
+    } catch(e) {}
+  }
+
+  // Scroll depth
+  function _onScroll() {
+    var scrolled = window.scrollY + window.innerHeight;
+    var total = document.documentElement.scrollHeight;
+    var pct = Math.round((scrolled / total) * 100);
+    [25, 50, 75, 100].forEach(function(mark) {
+      if (!_scrollMarks[mark] && pct >= mark) {
+        _scrollMarks[mark] = true;
+        _send("scroll_depth", {depth: mark});
+      }
+    });
+  }
+  window.addEventListener("scroll", _onScroll, {passive: true});
+
+  // Time on page
+  function _sendTime() {
+    var secs = Math.round((Date.now() - _startTime) / 1000);
+    _send("time_on_page", {seconds: secs});
+  }
+  document.addEventListener("visibilitychange", function() {
+    if (document.hidden) _sendTime();
+  });
+  window.addEventListener("pagehide", _sendTime);
+
+  // Newsletter CTA
+  document.addEventListener("click", function(e) {
+    var btn = e.target.closest("button");
+    if (btn) {
+      var box = btn.closest(".sidebar-newsletter, [class*='newsletter']");
+      if (box) _send("newsletter_click", {label: btn.textContent.trim().slice(0, 40)});
+    }
+    var link = e.target.closest("a[href]");
+    if (link && !link.href.includes(window.location.hostname)) {
+      _send("outbound_click", {url: link.href.slice(0, 100)});
+    }
+  });
+
+  // Pageview
+  _send("article_view", {});
+})();
+</script>
 </body>
 </html>
